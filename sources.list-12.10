@@ -1,0 +1,5 @@
+deb ftp://openware.byr.edu.cn/pub/mirror/ubuntu/ quantal main multiverse restricted universe
+deb ftp://openware.byr.edu.cn/pub/mirror/ubuntu/ quantal-backports main multiverse restricted universe
+deb ftp://openware.byr.edu.cn/pub/mirror/ubuntu/ quantal-proposed main multiverse restricted universe
+deb ftp://openware.byr.edu.cn/pub/mirror/ubuntu/ quantal-security main multiverse restricted universe
+deb ftp://openware.byr.edu.cn/pub/mirror/ubuntu/ quantal-updates main multiverse restricted universe 
