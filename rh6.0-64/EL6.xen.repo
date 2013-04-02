@@ -1,0 +1,12 @@
+[el6-xen]
+name=Xen compiled for EL6 - $basearch
+baseurl=http://xenbits.xen.org/people/mayoung/EL6.xen/$basearch/
+enabled=1
+gpgcheck=0
+
+[el6-xen-source]
+name=Xen compiled for EL6 - Source
+baseurl=http://xenbits.xen.org/people/mayoung/EL6.xen/SRPMS/
+enabled=0
+gpgcheck=0
+

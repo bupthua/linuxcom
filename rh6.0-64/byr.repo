@@ -1,0 +1,33 @@
+[base]
+name=CentOS-$releasever - Base
+baseurl=ftp://openware.byr.edu.cn/pub/mirror/centos/6/os/$basearch/
+gpgcheck=1
+gpgkey=ftp://openware.byr.edu.cn/pub/mirror/centos/RPM-GPG-KEY-CentOS-6
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=ftp://openware.byr.edu.cn/pub/mirror/centos/6/updates/$basearch/
+gpgcheck=1
+gpgkey=ftp://openware.byr.edu.cn/pub/mirror/centos/RPM-GPG-KEY-CentOS-6
+
+#packages used/produced in the build but not released
+#[addons]
+#name=CentOS-$releasever - Addons
+#baseurl=ftp://openware.byr.edu.cn/pub/mirror/centos/$releasever/addons/$basearch/
+#gpgcheck=1
+#gpgkey=ftp://openware.byr.edu.cn/pub/mirror/centos/RPM-GPG-KEY-CentOS-6
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=ftp://openware.byr.edu.cn/pub/mirror/centos/6/extras/$basearch/
+gpgcheck=1
+gpgkey=ftp://openware.byr.edu.cn/pub/mirror/centos/RPM-GPG-KEY-CentOS-6
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=ftp://openware.byr.edu.cn/pub/mirror/centos/6/os/centosplus/$basearch/
+gpgcheck=1
+enabled=0
+
+
